@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,c;
+    int a=24,b=23,c=22;
     scanf("%d %d %d",&a,&b,&c);
     if(a>b && a>c){
         printf("The largest number is : %d",a);
